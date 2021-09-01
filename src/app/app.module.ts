@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DemoService } from './services/demo.service';
+import { CategoriesService } from './services/categories.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DemoService } from './services/demo.service';
     HttpClientModule
   ],
   providers: [
-	DemoService
+	DemoService,
+	CategoriesService
   ],
   bootstrap: [AppComponent]
 })

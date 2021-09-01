@@ -1,4 +1,10 @@
 export interface Demo {
-	id: number;
+	id: string;
 	content: string
+}
+
+export interface Category {
+	id: number;
+	name: string;
+	shortText: string
 }
